@@ -1,68 +1,29 @@
-# Python Exercises
+# Hello, GitHub!
+---------
+## 🔍 Overview
+In order to complete this assignment, you must perform a series of tasks centered around getting used to working with git and GitHub.
+You will be asked to accept the assignment on GitHub Classroom, which will create a repository for you on the class organization. You'll clone the repository, make updates to its files, add files to it, and push it to GitHub.
+* You will also be asked to create a new branch, make changes to it, and merge it back into the main branch.
 
-The instructions for this assignment can be found at [https://it4063c.github.io/assignments/python-exercises](https://it4063c.github.io/assignments/python-exercises)
+> I'm using Markdown to write this document. If you're not familiar with Markdown, you can learn more about it [here](https://guides.github.com/features/mastering-markdown/).
 
-**Objectives**
-- Refresher on Python and some common libraries such as `numpy`.
-- Refresher on Jupyter Notebooks.
-- Introduction/Re-introduction to using git and GitHub.
+## 🎯 Objectives
+- Practice using GitHub Classroom
+- Practice using git commands, GitHub Desktop, or VS Code to manage a repository
+- Practice using git to update a repository
+- Practice the assignment submission workflow
 
+---------------
+## 📝 Instructions
+Make sure you follow the instructions carefully. You will be asked to complete a series of tasks and answer questions about your work. You will submit the assignment by submitting a link to your repository on Canvas.
 
-**Emojis Legend**
-- 👨🏻‍💻 - Instructions; Tells you about something specific you need to do.
-- 🦉 - Tips; Will tell you about some hints, tips and best practices
-- 📜 - Documentations; provides links to documentations
-- 🚩 - Checkpoint; marks a good spot for you to commit your code to git
-- 🕵️ - Tester; Don't modify code blocks starting with this emoji
+- Follow the instructions provided.
+  - The assignment instructions are available on Canvas and in the `assignment-instructions.md` file in this repository.
 
-## Installing Dependencies
-This assignment does not assume any particular setup. To install the dependencies, please run the command relevant to you're setup.
-- if you're using `poetry`, run `poetry install`.
-- If you're using `pipenv`, run `pipenv install`
-- if you're using `pip`, run `pip install -r requirements.txt`
+- Submit your work by submitting a link to your repository on Canvas.
 
-## Running the automated checks
-to run all the automated tests 
-```bash 
-pytest --capture=sys
-```
-
-to run the (python exercises) automated test
-```bash 
-pytest --capture=sys tests/python_test.py
-```
-
-to run the (numpy exercises) automated test
-```bash 
-pytest --capture=sys tests/numpy_test.py
-```
-
-## Project Structure
-```
-.
-├── .git                1️⃣  
-├── .vscode             2️⃣  
-│   ├── extensions.json 
-│   └── settings.json   
-├── .gitignore          3️⃣  
-├── my_story.ipynb      4️⃣  
-├── notebook_test.py    5️⃣  
-├── README.md           6️⃣  
-└── requirements.txt    7️⃣  
-```
-- 1️⃣ DO NOT TOUCH THIS DIRECTORY. This is what makes your folder a git repo.
-- 2️⃣ This directory contains some supporting files for helpful extensions, and VSCode settings 
-- 3️⃣ Another git related files. This tells git not to track certain files and folders that you don't want being uploaded
-- 4️⃣ That's where the party is. You'll only be working in this file.
-- 5️⃣ Some automated tests and checks
-- 6️⃣ The README file (this right here)
-- 7️⃣ The dependencies needed for this project. Actually deps and deps of deps, ...etc.
-
-## Credits
-- The helping emojis idea is inspired by `@kentcdodds` workshops.
-
-------------
-## 🤔 Reflection
+--- 
+## 🤔 Reflection 
 Examples for how you can reflect on this assignment
 * How long did it take you to complete the assignment? This assignment took me about 25ish minutes.
 * What do you think of this completion time? I think I was definetly lagging behind, as it's been a very long time since I used GitHuh and I haven't used the app before.
@@ -70,3 +31,34 @@ Examples for how you can reflect on this assignment
 
 ## Self-Evaluation:
 Out of 20 points for this assignment, I should get 20 points! (if i could change it to 300 i would!)
+
+---------------
+## 💭 Reflection and Self Assessment
+
+**Note from the instructor to the student reviewing this assignment.**
+Examples for how you can reflect on this assignment
+* How long did it take you to complete the assignment? This assignment took me about 25ish minutes.
+* What do you think of this completion time? I think I was definetly lagging behind, as it's been a very long time since I used GitHuh and I haven't used the app before.
+* With hindsight, what would you do differently getting started with this assignments, now that you know what you know? I should have looked at the videos first and asked around instead of just being stumped. I will do this next time!
+
+## Self-Evaluation:
+Out of 20 points for this assignment, I should get 20 points! (if i could change it to 300 i would!)
+
+**I learned:** (repeat as needed)
+- How to commit and push changes to my work.
+
+**I struggled with:** (repeat as needed)
+- Signing in and finding out I have to accounts.
+
+**I need the instructor to help me with:** (repeat as needed)
+- None
+
+**💯 Self Grade:** For this assignment, based on my work and my reflections I should get [20] out of 20.
+
+------------------
+## 📚 References and Citations
+**I used the following links, books, and other resources in my work:** (repeat as needed)
+- Page that told us what to do for the assignment.
+  
+**I received help from the following people:** (repeat as needed)
+- None
